@@ -1,0 +1,190 @@
+.row1{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: green;
+    animation: anim 3s infinite alternate;
+    
+}
+.row2{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: lightpink;
+    animation: anima 3s infinite alternate;
+}
+.row3{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: lightblue;
+    animation: animat 3s infinite alternate;
+}
+.row4{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color:blue;
+    animation: trans 5s infinite normal;
+}
+@keyframes trans {
+   100%{
+        transform: scale(1,0.5);
+       }
+       
+}
+.row5
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    border: 2px solid black;
+    animation: simple5 5s infinite normal;
+    color: brown;
+}
+@keyframes simple5
+{
+    0%{
+        transform:scale(1,1);
+    }
+    100%
+    {
+        transform:scale(0.5,1);
+    }
+}
+.row6{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: green;
+    animation: circle 3s infinite alternate;
+}
+@keyframes circle {
+    100%{
+        transform:rotate(360deg);
+    } 
+}
+@keyframes animati {
+    0%{
+     transform: scale(-30deg);
+    }
+     100%{
+         transform:scale(30deg);
+     }
+ }
+ @keyframes animat {
+   
+     100%{
+         transform:rotate(360deg);
+     }
+ }
+.num{
+    padding-top: 80px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    background-color: yellow;
+    text-align: center;
+}
+@keyframes anim {
+   0%{
+    transform: skewX(-30deg);
+   }
+    100%{
+        transform:skewX(30deg);
+    }
+}
+@keyframes anima {
+    0%{
+     transform: skewY(-30deg);
+    }
+     100%{
+         transform:skewY(30deg);
+     }
+ }
+
+/* index2*/
+.box5{
+    
+    display: flex;
+    justify-content: center;
+}
+.box6{
+    margin:20px;
+}
+.one{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s;
+}
+.one:hover{
+    width:400px;
+}
+.two{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s;
+}
+.two:hover{
+    width:400px;
+    height:300px;
+}
+.three{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s linear ;
+}
+.three:hover{
+  width:300px;
+}
+.four{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s ease;
+}
+.four:hover{
+    width:300px;
+}
+.five{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s ease-in;
+    
+}
+.five:hover{
+    width:300px;
+}
+.six{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s ease-out;
+}
+.six:hover{
+    width:300px;
+}
+.seven{
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    transition: 2s ease-in-out;
+   
+}
+.seven:hover{
+    width:300px;
+
+}
+
+.a2:visited{
+    color: blue;
+}
